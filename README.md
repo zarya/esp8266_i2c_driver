@@ -1,4 +1,5 @@
 esp8266 i2c driver
 
-put i2c.c in the driver dir
-put i2c.h in include/driver/
+Copy i2c.* to driver/
+
+add #include "i2c.h" to your code

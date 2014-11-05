@@ -1,5 +1,7 @@
 #ifndef __I2C_H__
 #define __I2C_H__
+#endif
+
 /*
     I2C driver for the ESP8266 
     Copyright (C) 2014 Rudy Hardeman (zarya) 
