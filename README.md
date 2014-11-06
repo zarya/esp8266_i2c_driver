@@ -1,5 +1,7 @@
 esp8266 i2c driver
 
+This driver is far from perfect and still needs work, if you have any idears or questions please create a issue.
+
 ```
 cd driver/
 git clone https://github.com/zarya/esp8266_i2c_driver.git i2c
