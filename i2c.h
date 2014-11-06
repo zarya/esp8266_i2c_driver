@@ -35,6 +35,10 @@
 #define I2C_SCL_FUNC FUNC_GPIO14
 #define I2C_SCL_PIN 14
 
+//SCL on GPIO0 (untested)
+//#define I2C_SCL_MUX PERIPHS_IO_MUX_GPIO0_U
+//#define I2C_SCL_PIN 0 
+//#define I2C_SCL_FUNC FUNC_GPIO0
 
 #define i2c_read() GPIO_INPUT_GET(GPIO_ID_PIN(I2C_SDA_PIN)); 
 
