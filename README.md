@@ -6,4 +6,5 @@ This driver is far from perfect and still needs work, if you have any idears or 
 cd driver/
 git clone https://github.com/zarya/esp8266_i2c_driver.git i2c
 ```
-add ```#include "i2c/i2c.h"``` to your code
+* Add ```#include "i2c/i2c.h"``` to your code
+* Add ```driver/i2c``` to the MODULES line in the makefile
